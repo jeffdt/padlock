@@ -13,17 +13,6 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin data/hitboxes.dat
-/copy:data/hitboxes.dat
-
-#begin fonts/bazaarDialog.png
-/importer:TextureImporter
-/processor:FontTextureProcessor
-/processorParam:FirstCharacter= 
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Color
-/build:fonts/bazaarDialog.png
-
 #begin fonts/console.png
 /importer:TextureImporter
 /processor:FontTextureProcessor
@@ -32,32 +21,8 @@
 /processorParam:TextureFormat=Color
 /build:fonts/console.png
 
-#begin fonts/dialog.png
-/importer:TextureImporter
-/processor:FontTextureProcessor
-/processorParam:FirstCharacter= 
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Color
-/build:fonts/dialog.png
-
 #begin fonts/fonts.xml
 /copy:fonts/fonts.xml
-
-#begin fonts/numbers.png
-/importer:TextureImporter
-/processor:FontTextureProcessor
-/processorParam:FirstCharacter= 
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Color
-/build:fonts/numbers.png
-
-#begin fonts/twotone.png
-/importer:TextureImporter
-/processor:FontTextureProcessor
-/processorParam:FirstCharacter= 
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Color
-/build:fonts/twotone.png
 
 #begin music/song.nsf
 /copy:music/song.nsf

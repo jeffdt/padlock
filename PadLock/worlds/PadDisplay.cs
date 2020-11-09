@@ -28,11 +28,6 @@ namespace PadLock.src.worlds {
             addButton(37, 9, "right", Buttons.DPadRight);
             addButton(31, 16, "down", Buttons.DPadDown);
             addButton(24, 9, "left", Buttons.DPadLeft);
-
-            Music.Stop();
-            Music.Load("music//song.nsf");
-            Music.PlayTrack(0);
-            Music.StereoDepth = 1f;
         }
 
         private void addButton(int x, int y, string sprite, Buttons button) {

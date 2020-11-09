@@ -6,21 +6,4 @@
     <Spacing>1</Spacing>
     <LineSpacing>10</LineSpacing>
   </Font> 
-  <Font>
-    <Name>twotone</Name>
-    <Path>twotone</Path>
-    <Spacing>2</Spacing>
-  </Font>
-  <Font>
-    <Name>numbers</Name>
-    <Path>numbers</Path>
-    <Spacing>1</Spacing>
-    <LineSpacing>11</LineSpacing>
-  </Font>
-  <Font>
-    <Name>dialog</Name>
-    <Path>dialog</Path>
-    <Spacing>0</Spacing>
-    <LineSpacing>12</LineSpacing>
-  </Font>
 </ArrayOfFont>
