@@ -157,7 +157,7 @@ namespace pigeon {
                 swapWorld();
             }
 
-            IsInFocus = IsActive;
+            IsInFocus = IsActive || !_pauseWhenInactive;
 
             InputManager.Update();
             RawKeyboardInput.Update();
