@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using pigeon.core;
 using pigeon.data;
-using pigeon.debug;
+using pigeon.debugger;
 using pigeon.gfx;
 using pigeon.input;
 using pigeon.sound;
@@ -21,7 +21,7 @@ using pigeon.gfx.drawable.text;
 using pigeon.gfx.drawable.image;
 using pigeon.gfx.drawable.sprite;
 
-namespace pigeon.pgnconsole {
+namespace pigeon.console {
     public static class EngineCommands {
         public static Dictionary<string, ConsoleCommand> Build() {
             return new Dictionary<string, ConsoleCommand> {

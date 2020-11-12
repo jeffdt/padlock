@@ -1,5 +1,4 @@
-﻿using PadLock.resources;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using pigeon.core;
 using pigeon.gameobject;
 using pigeon.input;
@@ -30,12 +29,11 @@ namespace PadLock.src.worlds {
             addButton(24, 9, "left", Buttons.DPadLeft);
         }
 
-        private void addButton(int x, int y, string sprite, Buttons button) {
+        private void addButton(int x, int y, string sprite, Buttons button) =>
             AddObj(new GameObject("" + objCount++) { Layer = .5f, WorldPosition = new Point(x - X_OFFSET, y) }
-            .AddComponent(new SpriteRenderer(@"controllerNew", sprite))
-            .AddComponent(new ButtonDisplay() { Button = button })
+                .AddComponent(new SpriteRenderer(@"controllerNew", sprite))
+                .AddComponent(new ButtonDisplay { Button = button })
             );
-        }
 
         protected override void Unload() { }
     }

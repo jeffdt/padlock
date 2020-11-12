@@ -1,4 +1,4 @@
-﻿namespace pigeon.pgnconsole {
+﻿namespace pigeon.console {
     internal class LogMessage {
         public string Text;
         public LogMessageTypes Type;

@@ -1,5 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
-using pigeon.debug;
+using pigeon.debugger;
 using pigeon.gameobject;
 using pigeon.utilities;
 using pigeon.gfx.drawable;

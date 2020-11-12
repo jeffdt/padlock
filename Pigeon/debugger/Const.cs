@@ -5,7 +5,7 @@ using pigeon.data;
 using pigeon.utilities.extensions;
 
 namespace pigeon.debugger {
-    public static class Const {
+    public static class Const2 {
         private const string regexPattern = @"(?<name>\w+)=(?<val>[-+]?[0-9]*\.?[0-9]+)";
         private static readonly Regex parser = new Regex(regexPattern);
 

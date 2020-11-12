@@ -2,11 +2,11 @@
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using pigeon.collision;
-using pigeon.pgnconsole;
+using pigeon.console;
 using pigeon.core;
 using pigeon.core.events;
 using pigeon.data;
-using pigeon.debug;
+using pigeon.debugger;
 using pigeon.gfx;
 using pigeon.input;
 using pigeon.sound;
@@ -28,7 +28,7 @@ namespace pigeon {
         protected abstract string WindowTitle { get; }
         protected abstract string Version { get; }
         protected abstract int FrameRate { get; }
-        protected abstract PGNConsoleOptions ConsoleOpts { get; }
+        protected abstract ConsoleOptions ConsoleOptions { get; }
         protected abstract bool StartMouseVisible { get; }
         protected abstract Color DefaultBkgdColor { get; }
         protected abstract string SaveFolderName { get; }
@@ -104,7 +104,7 @@ namespace pigeon {
 
             LoadGame();
 
-            Console = new PGNConsole(ConsoleOpts);
+            Console = new PGNConsole(ConsoleOptions);
             Console.LoadContent();
             Console.AddGlobalCommands(EngineCommands.Build());
 

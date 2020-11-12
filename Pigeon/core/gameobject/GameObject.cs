@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using Microsoft.Xna.Framework;
-using pigeon.debug;
+using pigeon.debugger;
 using pigeon.rand;
 using pigeon.collision;
 using pigeon.time;

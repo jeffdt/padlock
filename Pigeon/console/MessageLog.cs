@@ -8,7 +8,7 @@ using pigeon.gfx.drawable.text;
 using pigeon.utilities;
 using pigeon.utilities.extensions;
 
-namespace pigeon.pgnconsole {
+namespace pigeon.console {
     internal class MessageLog {
         private readonly int limit;
         private readonly int lineSpacing;
@@ -21,7 +21,7 @@ namespace pigeon.pgnconsole {
         private readonly List<LogMessage> allMessages;
         private readonly List<GameObject> messageEntities;
 
-        public MessageLog(SpriteFont font, int lineWrapWidth, Point bottomMessagePosition, int lineSpacing, PGNConsoleOptions options, World console) {
+        public MessageLog(SpriteFont font, int lineWrapWidth, Point bottomMessagePosition, int lineSpacing, ConsoleOptions options, World console) {
             this.font = font;
             this.wrapWidth = lineWrapWidth;
             this.lineSpacing = lineSpacing;

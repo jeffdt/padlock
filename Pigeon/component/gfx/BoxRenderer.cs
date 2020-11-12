@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using pigeon.gfx.drawable.image;
 
 namespace pigeon.gfx.drawable.shape {
-    public class RectRenderer : ImageRenderer {
+    public class BoxRenderer : ImageRenderer {
         public Rectangle Rect; // x/y represent offsets from Object.Position. if Object.Position is upper left, x/y will be 0,0.
         public Color FillColor = Color.White;
         public Color BorderColor = Color.Black;

@@ -16,12 +16,12 @@ using pigeon.gfx.drawable.image;
 using pigeon.utilities;
 using pigeon.gfx.drawable.sprite;
 
-namespace pigeon.pgnconsole {
+namespace pigeon.console {
     public class PGNConsole : World {
         #region constants
         private const int bufferMaxLength = 300;
         private int lineOverflowWidth;
-        internal readonly PGNConsoleOptions options;
+        internal readonly ConsoleOptions options;
         private readonly SpriteFont font;
         private readonly Point bufferHomePosition;
         #endregion
@@ -91,7 +91,7 @@ namespace pigeon.pgnconsole {
 
         public bool IsDisplaying { get; private set; }
 
-        public PGNConsole(PGNConsoleOptions options) {
+        public PGNConsole(ConsoleOptions options) {
             this.options = options;
 
             font = ResourceCache.Font("console");

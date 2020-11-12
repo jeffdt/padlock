@@ -2,7 +2,7 @@
 using System.Linq;
 using pigeon.data;
 
-namespace pigeon.pgnconsole {
+namespace pigeon.console {
     public class AliasManager {
         private const string FILENAME = "alias.cfg";
         private SerializableDictionary<string, List<string>> aliases;

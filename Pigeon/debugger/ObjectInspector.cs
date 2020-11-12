@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework;
 using pigeon.utilities;
 
 namespace pigeon.debugger {
-    public class ObjectInspector {
+    public class ObjectInspector2 {
         private readonly List<Tuple<string, string>> fields = new List<Tuple<string, string>>();
 
         public void AppendField(string name, object value) {
